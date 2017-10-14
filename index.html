@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <title>旅游网</title>
+    <meta name="Keywords" content="湖南旅游，驴友">
+    <meta name="description" content="介绍湖南旅游的景点，导航">
+    <link rel="stylesheet" href="css/wz-reset.css" />
+    <link rel="stylesheet" href="css/tour.css" />
+</head>
+<!--头部begin-->
+<div class="header">
+    <div class="headInfo">
+        <p class="content">
+            中国神州旅游集团理事单位&nbsp;&nbsp;长沙旅行社协会常务理事单位&nbsp;&nbsp;热线电话：0731-82274123&nbsp;&nbsp;82284123&nbsp;&nbsp;82564646&nbsp;&nbsp;传真：82564747
+        </p>
+    </div>
+    <div class="navhead">
+        <div class="banner clearfix">
+            <a class="logo">
+                <img src="images/logo.jpg">
+            </a>
+            <div class="tourspirit" >
+                <ul>
+                    <li><a href="javascript:void(0)">加入收藏</a></li>
+                    <li><a href="javascript:void(0)">设为首页</a></li>
+                    <li><a href="javascript:void(0)">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--导航部分BEGIN-->
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="javascript:void(0);"  class="active">网站首页</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">神州概况</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">湖南地接</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">湖南旅游</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">国内旅游</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">旅游常识</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">出境旅游</a>
+                </li>
+                <li><a href="javascript:void(0);">商务旅游</a></li>
+                <li><a href="javascript:void(0);">人才招聘</a></li>
+                <li><a href="javascript:void(0);">商务租车</a></li>
+                <li><a href="javascript:void(0);">会务旅游</a></li>
+                <li><a href="javascript:void(0);">联系我们</a></li>
+            </ul>
+        </div>
+        <!--导航部分END-->
+    </div>
+</div>
+<div class="main_content">
+<!--头部end-->
+    <div class="serviceWrap clearfix">
+        <div class="service">
+            <div class="tab">
+                <div class="tab_title" id="tab">
+                    <ul class="clearfix">
+                        <li class="active js_index">服务台</li>
+                        <li class="js_index">我搜我游</li>
+                    </ul>
+                </div>
+                <div class="tab_content" id="showTab">
+                    <div class="contact js_tab">
+                        <h3>长沙神州国际旅行社</h3>
+                        <dl class="information">
+                            <dt>经营许可证：</dt>
+                            <dd>L-HUN-01100</dd>
+                        </dl>
+                        <dl>
+                            <dt>地址：</dt>
+                            <dd>长沙市韶山北路39号维一星<br/>城金牛座0601</dd>
+                        </dl>
+                        <dl>
+                            <dt>电话：</dt>
+                            <dd>82274123 82284123 82564646</dd>
+                        </dl>
+                        <dl>
+                            <dt>传真：</dt>
+                            <dd>82564747&nbsp;QQ:1677132732</dd>
+                        </dl>
+                        <dl>
+                            <dt>E-mail：</dt>
+                            <dd>1677132732@qq.com</dd>
+                        </dl>
+                    </div>
+                    <div class="search hidden js_tab">
+                        <div class="search_wrap clearfix">
+                            <img src="images/search.png">
+                            我搜我游
+                        </div>
+                        <ul class="tourtype clearfix">
+                            <li><i class="icon_checkbox"><input type="checkbox"/></i>国内游</li>
+                            <li><i class="icon_checkbox"><input type="checkbox"/></i>出境游</li>
+                            <li><i class="icon_checkbox"><input type="checkbox"/></i>自由行</li>
+                        </ul>
+                        <form action="#">
+                            <ul class="form_content">
+                                <li>
+                                    <label>出发城市</label>
+                                  <span>
+                                      <input type="text" value="">
+                                  </span>
+                                </li>
+                                <li>
+                                    <label>目的城市</label>
+                                  <span>
+                                      <input type="text" value="">
+                                  </span>
+                                </li>
+                                <li>
+                                    <input type="submit" value="搜索" />
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scrollContent">
+            <div class="scroll_wrap">
+                <div class="scroll" id="scroll">
+                    <img src="images/banner_01.jpg" alt=""/>
+                    <img src="images/banner_02.jpg" alt=""/>
+                    <img src="images/banner_01.jpg" alt=""/>
+                    <img src="images/banner_02.jpg" alt=""/>
+                    <img src="images/banner_01.jpg" alt=""/>
+                </div>
+                <div class="scrollDot" id="scrollDot">
+                    <span class="active js_dot">1</span>
+                    <span class="js_dot">2</span>
+                    <span class="js_dot">3</span>
+                    <span class="js_dot">4</span>
+                    <span class="js_dot">5</span>
+                </div>
+            </div>
+            <p class="sale">超值特惠&nbsp;&nbsp;凤凰二日特价220元/人!报名热线：0731-827668105.&nbsp;&nbsp;&nbsp;&nbsp;另公司因业务发展需要，常年招聘专职导游人员，详情请电话咨询！</p>
+        </div>
+
+    </div>
+        <!--网上预定，功能区块 begin-->
+   <div class="all_wrap clearfix">
+       <div class="left_side_wrap">
+           <div class="two_area_wrap clearfix">
+               <div class="function_wrap">
+                   <div class="order_image">
+                       <img src="images/schedule.jpg" alt="图片热点" width="214" height="110" usemap="#Map" border="0" />
+                       <map name="Map" id="Map">
+                           <area shape="rect" coords="132,81,207,98" href="http://www.51happybuy.com" target="_blank" />
+                       </map>
+                   </div>
+                   <div class="tour_order">
+                       <div class="title_bar">
+                           <i class="icon icon_guide guide"></i>
+                           旅游服务信息
+                        <span class="more_wrap">
+                            <em>MORE</em>
+                        <i class="icon icon_more more"></i>
+                        </span>
+                       </div>
+                       <div class="tour_function">
+                           <ul>
+                               <li>
+                                <span>
+                                    <i class="icon icon_date"></i>
+                                    <a href="javascript:void(0)">日历查询</a>
+                                </span>
+                                <span>
+                                    <i class="icon icon_airport"></i>
+                                    <a href="javascript:void(0)" >航班查询</a>
+                                </span>
+                               </li>
+                               <li>
+                                 <span>
+                                    <i class="icon icon_train"></i>
+                                     <a href="javascript:void(0)" >火车列表</a>
+                                </span>
+                                <span>
+                                    <i class="icon icon_weather"></i>
+                                    <a href="javascript:void(0)" >天气预报</a>
+                                </span>
+                               </li>
+                               <li>
+                                 <span>
+                                    <i class="icon icon_map"></i>
+                                     <a href="javascript:void(0)" >旅游地图</a>
+                                </span>
+                                <span>
+                                    <i class="icon icon_bar"></i>
+                                    <a href="javascript:void(0)" >公交查询</a>
+                                </span>
+                               </li>
+                               <li>
+                                <span>
+                                    <i class="icon icon_phone"></i>
+                                    <a href="javascript:void(0)" >手机查询</a>
+                                </span>
+                                <span>
+                                    <i class="icon icon_postcode"></i>
+                                    <a href="javascript:void(0)" >邮编区号</a>
+                                </span>
+                               </li>
+                               <li>
+                                <span>
+                                    <i class="icon icon_translate"></i>
+                                    <a href="javascript:void(0)">在线翻译</a>
+                                </span>
+                                <span>
+                                    <i class="icon icon_trip"></i>
+                                    <a href="javascript:void(0)" >出行参考</a>
+                                </span>
+                               </li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+               <!--网上预定，功能区块 end-->
+               <!--特价旅游 begin-->
+               <div class="tour_sale_price">
+                   <div class="title_bar">
+                       <i class="icon icon_guide guide"></i>
+                       特价旅游路线
+                       <div class="more_wrap">
+                           <em>详情点击</em>
+                           <i class="icon icon_more more"></i>
+                       </div>
+                   </div>
+                   <ul class="clearfix">
+                       <li>
+                           <i class="icon icon_star"></i>
+                           <a href="javascript:void(0);">长沙到长隆高铁往返旅游：水上乐园、野生动物园/欢乐世界二日游</a>
+                           <a  class="purpleclear">
+                               <i>&yen;</i><em>3000</em>
+                               <input type="button" value="预定" />
+                           </a>
+                       </li>
+                       <li>
+                           <i class="icon icon_star"></i>
+                           <a href="javascript:void(0);">长沙到张家界旅游：奇山异水张家界三天游</a>
+                           <a  class="purpleclear">
+                               <i>&yen;</i><em>3000</em>
+                               <input type="button" value="预定" />
+                           </a>
+                       </li>
+                       <li>
+                           <i class="icon icon_star"></i>
+                           <a href="javascript:void(0);">长沙到桂林旅游：“八角寨丹霞魂”、漓江、独秀峰、汽车三日纯玩游</a>
+                           <a  class="purpleclear">
+                               <i>&yen;</i><em>3000</em>
+                               <input type="button" value="预定" />
+                           </a>
+                       </li>
+                       <li>
+                           <i class="icon icon_star"></i>
+                           <a href="javascript:void(0);">长沙到长隆高铁往返旅游：水上乐园、野生动物园/欢乐世界二日游</a>
+                           <a  class="purpleclear">
+                               <i>&yen;</i><em>3000</em>
+
+                               <input type="button" value="预定" />
+                           </a>
+                       </li>
+                       <li>
+                           <i class="icon icon_star"></i>
+                           <a href="javascript:void(0);">长沙到张家界旅游：奇山异水张家界三天游</a>
+                           <a  class="purpleclear">
+                               <i>&yen;</i><em>3000</em>
+                               <input type="button" value="预定" />
+                           </a>
+                       </li>
+                       <li>
+                           <i class="icon icon_star"></i>
+                           <a href="javascript:void(0);">长沙到桂林旅游：“八角寨丹霞魂”、漓江、独秀峰、汽车三日纯玩游</a>
+                           <a class="purpleclear">
+                               <i>&yen;</i><em>3000</em>
+                               <input type="button" value="预定" />
+                           </a>
+                       </li>
+                   </ul>
+                   <div class="world">
+                       <img src="images/garmin.jpg">
+                   </div>
+               </div>
+           </div>
+           <!-- 特价旅游end -->
+           <!--主题活动begin-->
+           <div class="theme_exercise">
+
+               <ul>
+                   <li>
+                       <a href="javascript:void(0)">
+                           <img src="images/tourad1.jpg" alt=""/>
+                       </a>
+                   </li>
+                   <li>
+                       <a href="javascript:void(0)">
+                           <img src="images/tourad2.jpg" alt=""/>
+                       </a>
+                   </li>
+                   <li>
+                       <a href="javascript:void(0)">
+                           <img src="images/tourad3.jpg" alt=""/>
+                       </a>
+                   </li>
+                   <li>
+                       <a href="javascript:void(0)">
+                           <img src="images/tourad1.jpg" alt=""/>
+                       </a>
+                   </li>
+                   <li>
+                       <a href="javascript:void(0)">
+                           <img src="images/tourad2.jpg" alt=""/>
+                       </a>
+                   </li>
+                   <li>
+                       <a href="javascript:void(0)">
+                           <img src="images/tourad3.jpg" alt=""/>
+                       </a>
+                   </li>
+               </ul>
+           </div>
+           <!--主体活动end-->
+           <!--湖南省内及周边begin-->
+           <div class="round_city">
+               <div class="title_bar">
+                   <i class="icon icon_guide guide"></i>
+                   湖南省内日及周边
+                   <div class="more_wrap">
+                       <em>详情点击</em>
+                       <i class="icon icon_more more"></i>
+                   </div>
+               </div>
+               <div class="round_wrap">
+                   <div class="top_title">
+                       <ul>
+                           <li><a href="javascript:void(0);">韶山</a></li>
+                           <li><a href="javascript:void(0);">张家界</a></li>
+                           <li><a href="javascript:void(0);">凤凰</a></li>
+                           <li><a href="javascript:void(0);">南岳</a></li>
+                           <li><a href="javascript:void(0);">长沙</a></li>
+                           <li><a href="javascript:void(0);">岳阳</a></li>
+                           <li><a href="javascript:void(0);">其他</a></li>
+                       </ul>
+
+                   </div>
+                   <div class="left_img_wrap">
+                        <img src="images/jounery.jpg" />
+                   </div>
+                   <div class="right_content_wrap">
+                       <ul class="comm_ul">
+                           <li class="comm_li">
+                               <i class="icon icon_star"></i>
+                               <a href="javascript:void(0);">长沙到长隆高铁往返旅游：水上乐园、野生动物园/欢乐世界二日游</a>
+                           </li>
+                           <li class="comm_li">
+                               <i class="icon icon_star"></i>
+                               <a href="javascript:void(0);">长沙到张家界旅游：奇山异水张家界三天游</a>
+                           </li>
+                           <li class="comm_li">
+                               <i class="icon icon_star"></i>
+                               <a href="http://www.51happybuy.com">长沙到桂林旅游：“八角寨丹霞魂”、漓江、独秀峰、汽车三日纯游玩</a>
+                           </li>
+                           <li class="comm_li">
+                               <i class="icon icon_star"></i>
+                               <a href="javascript:void(0)">长沙到长隆高铁往返旅游：水上乐园、野生动物园/欢乐世界二日游</a>
+                           </li>
+                           <li class="comm_li">
+                               <i class="icon icon_star"></i>
+                               <a href="">长沙到张家界旅游：奇山异水张家界三天游</a>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+           <!--湖南省内及周边end-->
+           <!--国内旅游路线begin-->
+           <div class="round_city">
+               <div class="title_bar">
+                   <i class="icon icon_guide guide"></i>
+                   湖南省内日及周边
+                   <div class="more_wrap">
+                       <em>详情点击</em>
+                       <i class="icon icon_more more"></i>
+                   </div>
+               </div>
+               <div class="round_wrap">
+                   <div class="top_title">
+                       <ul>
+                           <li><a href="javascript:void(0);">韶山</a></li>
+                           <li><a href="javascript:void(0);">张家界</a></li>
+                           <li><a href="javascript:void(0);">凤凰</a></li>
+                           <li><a href="javascript:void(0);">南岳</a></li>
+                           <li><a href="javascript:void(0);">长沙</a></li>
+                           <li><a href="javascript:void(0);">岳阳</a></li>
+                           <li><a href="javascript:void(0);">其他</a></li>
+                       </ul>
+
+                   </div>
+                   <div class="left_img_wrap">
+                       <img src="images/jounery.jpg" />
+                   </div>
+                   <div class="right_content_wrap">
+                       <ul class="comm_ul">
+                           <li class="comm_li">
+                               <i class="icon icon_star"></i>
+                               <a href="javascript:void(0);">长沙到长隆高铁往返旅游：水上乐园、野生动物园/欢乐世界二日游</a>
+                           </li>
+                           <li class="comm_li">
+                               <i class="icon icon_star"></i>
+                               <a href="javascript:void(0);">长沙到张家界旅游：奇山异水张家界三天游</a>
+                           </li>
+                           <li class="comm_li">
+                               <i class="icon icon_star"></i>
+                               <a href="http://www.51happybuy.com">长沙到桂林旅游：“八角寨丹霞魂”、漓江、独秀峰、汽车三日纯游玩</a>
+                           </li>
+                           <li class="comm_li">
+                               <i class="icon icon_star"></i>
+                               <a href="javascript:void(0)">长沙到长隆高铁往返旅游：水上乐园、野生动物园/欢乐世界二日游</a>
+                           </li>
+                           <li class="comm_li">
+                               <i class="icon icon_star"></i>
+                               <a href="">长沙到张家界旅游：奇山异水张家界三天游</a>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+           <!--国内旅游路线end-->
+       </div>
+
+       <div class="rightside">
+                <div class="hunan">
+                    <div class="title_bar">
+                        <i class="icon icon_guide guide"></i>
+                        热门旅游目的地推荐
+                        <div class="more_wrap">
+                            <em>MORE</em>
+                            <i class="icon icon_more more"></i>
+                        </div>
+                    </div>
+                    <div class="tour_hot">
+                        <h3>湖南热门旅游胜地推荐</h3>
+                        <ul class="clearfix">
+                            <li>
+                                <a href="">
+                                   <img src="images/sight.jpg" />
+                                </a>
+                                <p class="address">韶山</p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/sight2.jpg" />
+                                </a>
+                                <p class="address">张家界</p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/sight3.jpg" />
+                                </a>
+                                <p  class="address">凤凰</p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/sight4.jpg" />
+                                </a>
+                                <p class="address">南岳</p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/sight5.jpg" />
+                                </a>
+                                <p class="address">岳阳</p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/sight6.jpg" />
+                                </a>
+                                <p class="address">长沙</p>
+                            </li>
+                        </ul>
+                        <h3>国内热门旅游胜地推荐</h3>
+                        <ul class="clearfix">
+                            <li>
+                                <a href="">
+                                    <img src="images/sight7.jpg" />
+                                </a>
+                                <p class="address">北京</p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/sight8.jpg" />
+                                </a>
+                                <p class="address">海南</p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/sight9.jpg" />
+                                </a>
+                                <p class="address">湖南</p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/sight10.jpg" />
+                                </a>
+                                <p class="address">广西</p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/sight11.jpg" />
+                                </a>
+                                <p class="address">贵州</p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/sight12.jpg" />
+                                </a>
+                                <p class="address">广东</p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/sight10.jpg" />
+                                </a>
+                                <p class="address">安徽</p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/sight11.jpg" />
+                                </a>
+                                <p class="address">云南</p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="images/sight12.jpg" />
+                                </a>
+                                <p class="address">哈尔滨</p>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+           <div class="aside">
+               <div class="title_bar">
+                   <i class="icon icon_guide guide"></i>
+                   员工风采
+                   <div class="more_wrap">
+                       <em>MORE</em>
+                       <i class="icon icon_more more"></i>
+                   </div>
+               </div>
+               <div class="showemp" id="showemp">
+                   <div class="employeeWrap" id="verticalScroll">
+                       <ul>
+                           <li>
+                               <img src="images/view/view.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view2.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view3.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view4.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view5.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view6.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view7.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view8.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view9.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view10.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view11.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view12.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view2.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view3.jpg" alt=""/>
+                           </li>
+                           <li>
+                               <img src="images/view/view4.jpg" alt=""/>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+    <!--湖南地接线路-->
+    <div class="line">
+        <img src="images/line.jpg">
+    </div>
+    <!--出境旅游路线begin-->
+        <div class="abroad clearfix">
+            <div class="tour_line">
+                <div class="round_city">
+                    <div class="title_bar">
+                        <i class="icon icon_guide guide"></i>
+                        国内旅游路线
+                        <div class="more_wrap">
+                            <em>详情点击</em>
+                            <i class="icon icon_more more"></i>
+                        </div>
+                    </div>
+                    <div class="round_wrap">
+                        <div class="top_title">
+                            <ul>
+                                <li><a href="javascript:void(0);">海南</a></li>
+                                <li><a href="javascript:void(0);">云南</a></li>
+                                <li><a href="javascript:void(0);">华东</a></li>
+                                <li><a href="javascript:void(0);">青岛</a></li>
+                                <li><a href="javascript:void(0);">大连</a></li>
+                                <li><a href="javascript:void(0);">福建</a></li>
+                                <li><a href="javascript:void(0);">广西</a></li>
+                                <li><a href="javascript:void(0);">西安</a></li>
+                                <li><a href="javascript:void(0);">新疆</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="left_img_wrap">
+                            <img src="images/exit.jpg">
+                        </div>
+                        <div class="right_content_wrap">
+                            <ul class="comm_ul">
+                                <li class="comm_li">
+                                    <i class="icon icon_star"></i>
+                                    <a href="javascript:void(0);">长沙到长隆高铁往返旅游：水上乐园、野生动物园/欢乐世界二日游</a>
+                                </li>
+                                <li class="comm_li">
+                                    <i class="icon icon_star"></i>
+                                    <a href="javascript:void(0);">长沙到张家界旅游：奇山异水张家界三天游</a>
+                                </li>
+                                <li class="comm_li">
+                                    <i class="icon icon_star"></i>
+                                    <a href="http://www.51happybuy.com">长沙到桂林旅游：“八角寨丹霞魂”、漓江、独秀峰、汽车三日纯游玩</a>
+                                </li>
+                                <li class="comm_li">
+                                    <i class="icon icon_star"></i>
+                                    <a href="javascript:void(0)">长沙到长隆高铁往返旅游：水上乐园、野生动物园/欢乐世界二日游</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nous">
+                <div class="title_bar">
+                    <i class="icon icon_guide guide"></i>
+                    旅游常识
+                        <span class="more_wrap">
+                            <em>MORE</em>
+                        <i class="icon icon_more more"></i>
+                        </span>
+                </div>
+                <ul class="live">
+                    <li>
+                        <i class="icon icon_dot"></i>
+                        <a href="javascript:void(0);">玩转五一就看这里(江浙沪)</a>
+                    </li>
+                    <li>
+                        <i class="icon icon_dot"></i>
+                        <a href="javascript:void(0);">
+                            旅游足迹微直播&nbsp;移动...
+                        </a>
+                    </li>
+                    <li>
+                        <i class="icon icon_dot"></i>
+                        <a href="javascript:void(0);">玩转五一就看这里(江浙沪)</a>
+                    </li>
+                    <li>
+                        <i class="icon icon_dot"></i>
+                        <a href="javascript:void(0);">
+                            旅游足迹微直播&nbsp;移动...
+                        </a>
+                    </li>
+                    <li>
+                        <i class="icon icon_dot"></i>
+                        <a href="javascript:void(0);">
+                            玩转五一就看这里(江浙沪)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <!--出境旅游路线end-->
+
+</div>
+<div class="footer">
+        <ul class="clearfix">
+            <li><a href="javascript:void(0);">网站首页</a></li>
+            <li><a href="javascript:void(0);">神州概况</a></li>
+            <li><a href="javascript:void(0);">湖南地接</a></li>
+            <li><a href="javascript:void(0);">湖南旅游</a></li>
+            <li><a href="javascript:void(0);">国内旅游</a></li>
+            <li><a href="javascript:void(0);">旅游常识</a></li>
+            <li><a href="javascript:void(0);">出境旅游</a></li>
+            <li><a href="javascript:void(0);">商务旅游</a></li>
+            <li><a href="javascript:void(0);">人才招聘</a></li>
+            <li><a href="javascript:void(0);">商务租车</a></li>
+            <li><a href="javascript:void(0);">会务租车</a></li>
+            <li><a href="javascript:void(0);">联系我们</a></li>
+        </ul>
+    <p>联系电话：0731-82274&nbsp;&nbsp;82284123&nbsp;&nbsp;82564646&nbsp;传真：82564747&nbsp;Email:1677132732@qq.com</p>
+    <p>
+        邮编：410011&nbsp;版本所有：长沙神州国际旅行社有限公司&nbsp;&nbsp;技术支持：点看网络
+    </p>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/tour.js"></script>
+
+</body>
+</html>
